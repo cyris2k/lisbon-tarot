@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="500" viewBox="0 0 300 500">
+  <!-- Background -->
+  <rect width="300" height="500" fill="#C1440E"/>
+
+  <!-- Subtle top-to-bottom gradient overlay using rect -->
+  <rect width="300" height="500" fill="url(#optimizerGrad)" opacity="0.3"/>
+  <defs>
+    <radialGradient id="optimizerGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#E8622A"/>
+      <stop offset="100%" stop-color="#7A2606"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Gold border -->
+  <rect x="4" y="4" width="292" height="492" fill="none" stroke="#D4A843" stroke-width="8" rx="6"/>
+  <!-- Inner border -->
+  <rect x="16" y="16" width="268" height="468" fill="none" stroke="#D4A843" stroke-width="1.5" rx="3" opacity="0.7"/>
+
+  <!-- Large center circle (lighter shade) -->
+  <circle cx="150" cy="250" r="95" fill="#D85A2A" opacity="0.85"/>
+  <circle cx="150" cy="250" r="95" fill="none" stroke="#D4A843" stroke-width="2" opacity="0.6"/>
+
+  <!-- Inner decorative ring -->
+  <circle cx="150" cy="250" r="80" fill="none" stroke="#D4A843" stroke-width="1" opacity="0.4" stroke-dasharray="6 4"/>
+
+  <!-- Gear-like spokes emanating from center (optimizer motif) -->
+  <g stroke="#D4A843" stroke-width="1.5" opacity="0.5">
+    <line x1="150" y1="165" x2="150" y2="145"/>
+    <line x1="150" y1="335" x2="150" y2="355"/>
+    <line x1="65" y1="250" x2="45" y2="250"/>
+    <line x1="235" y1="250" x2="255" y2="250"/>
+    <line x1="93" y1="193" x2="79" y2="179"/>
+    <line x1="207" y1="307" x2="221" y2="321"/>
+    <line x1="207" y1="193" x2="221" y2="179"/>
+    <line x1="93" y1="307" x2="79" y2="321"/>
+  </g>
+
+  <!-- Corner ornaments -->
+  <polygon points="28,28 44,28 28,44" fill="#D4A843" opacity="0.9"/>
+  <polygon points="272,28 256,28 272,44" fill="#D4A843" opacity="0.9"/>
+  <polygon points="28,472 44,472 28,456" fill="#D4A843" opacity="0.9"/>
+  <polygon points="272,472 256,472 272,456" fill="#D4A843" opacity="0.9"/>
+
+  <!-- Small arrow / optimization symbol in circle center -->
+  <polygon points="150,222 168,260 150,250 132,260" fill="#F5ECD7" opacity="0.85"/>
+  <circle cx="150" cy="265" r="8" fill="none" stroke="#F5ECD7" stroke-width="2" opacity="0.7"/>
+
+  <!-- Top flourish line -->
+  <line x1="40" y1="130" x2="260" y2="130" stroke="#D4A843" stroke-width="0.75" opacity="0.4"/>
+  <!-- Bottom flourish line -->
+  <line x1="40" y1="370" x2="260" y2="370" stroke="#D4A843" stroke-width="0.75" opacity="0.4"/>
+
+  <!-- Archetype name -->
+  <text x="150" y="76" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold"
+        fill="#D4A843" text-anchor="middle" letter-spacing="3">THE</text>
+  <text x="150" y="410" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-weight="bold"
+        fill="#F5ECD7" text-anchor="middle" letter-spacing="2">OPTIMIZER</text>
+  <text x="150" y="435" font-family="Georgia, 'Times New Roman', serif" font-size="10"
+        fill="#D4A843" text-anchor="middle" letter-spacing="4" opacity="0.8">&#8212; I &#8212;</text>
+
+  <!-- Side dots -->
+  <circle cx="30" cy="250" r="2.5" fill="#D4A843" opacity="0.6"/>
+  <circle cx="270" cy="250" r="2.5" fill="#D4A843" opacity="0.6"/>
+</svg>

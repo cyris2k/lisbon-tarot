@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="500" viewBox="0 0 300 500">
+  <!-- Background -->
+  <rect width="300" height="500" fill="#1A1209"/>
+
+  <!-- Gold border -->
+  <rect x="4" y="4" width="292" height="492" fill="none" stroke="#D4A843" stroke-width="8" rx="6"/>
+
+  <!-- Inner thin border -->
+  <rect x="16" y="16" width="268" height="468" fill="none" stroke="#D4A843" stroke-width="1.5" rx="3" opacity="0.6"/>
+
+  <!-- Corner ornaments -->
+  <!-- Top-left -->
+  <g transform="translate(28, 28)">
+    <polygon points="0,0 16,0 0,16" fill="#D4A843" opacity="0.9"/>
+    <line x1="0" y1="24" x2="24" y2="0" stroke="#D4A843" stroke-width="1" opacity="0.5"/>
+  </g>
+  <!-- Top-right -->
+  <g transform="translate(272, 28) scale(-1,1)">
+    <polygon points="0,0 16,0 0,16" fill="#D4A843" opacity="0.9"/>
+    <line x1="0" y1="24" x2="24" y2="0" stroke="#D4A843" stroke-width="1" opacity="0.5"/>
+  </g>
+  <!-- Bottom-left -->
+  <g transform="translate(28, 472) scale(1,-1)">
+    <polygon points="0,0 16,0 0,16" fill="#D4A843" opacity="0.9"/>
+    <line x1="0" y1="24" x2="24" y2="0" stroke="#D4A843" stroke-width="1" opacity="0.5"/>
+  </g>
+  <!-- Bottom-right -->
+  <g transform="translate(272, 472) scale(-1,-1)">
+    <polygon points="0,0 16,0 0,16" fill="#D4A843" opacity="0.9"/>
+    <line x1="0" y1="24" x2="24" y2="0" stroke="#D4A843" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <!-- Central ornate diamond pattern -->
+  <!-- Outer diamond -->
+  <polygon points="150,160 230,250 150,340 70,250" fill="none" stroke="#D4A843" stroke-width="2"/>
+  <!-- Mid diamond -->
+  <polygon points="150,180 210,250 150,320 90,250" fill="none" stroke="#D4A843" stroke-width="1.5" opacity="0.8"/>
+  <!-- Inner diamond -->
+  <polygon points="150,200 195,250 150,300 105,250" fill="none" stroke="#D4A843" stroke-width="1.5" opacity="0.7"/>
+  <!-- Innermost diamond filled -->
+  <polygon points="150,218 183,250 150,282 117,250" fill="#D4A843" opacity="0.15"/>
+  <polygon points="150,218 183,250 150,282 117,250" fill="none" stroke="#D4A843" stroke-width="1" opacity="0.9"/>
+
+  <!-- Diamond cross lines -->
+  <line x1="150" y1="160" x2="150" y2="340" stroke="#D4A843" stroke-width="0.75" opacity="0.4"/>
+  <line x1="70" y1="250" x2="230" y2="250" stroke="#D4A843" stroke-width="0.75" opacity="0.4"/>
+
+  <!-- Cream diamond ornament center -->
+  <polygon points="150,234 162,250 150,266 138,250" fill="#F5ECD7" opacity="0.9"/>
+  <!-- Small dots at diamond points -->
+  <circle cx="150" cy="160" r="3" fill="#D4A843"/>
+  <circle cx="230" cy="250" r="3" fill="#D4A843"/>
+  <circle cx="150" cy="340" r="3" fill="#D4A843"/>
+  <circle cx="70" cy="250" r="3" fill="#D4A843"/>
+
+  <!-- Decorative dots along inner border -->
+  <circle cx="150" cy="30" r="2.5" fill="#D4A843" opacity="0.7"/>
+  <circle cx="150" cy="470" r="2.5" fill="#D4A843" opacity="0.7"/>
+  <circle cx="30" cy="250" r="2.5" fill="#D4A843" opacity="0.7"/>
+  <circle cx="270" cy="250" r="2.5" fill="#D4A843" opacity="0.7"/>
+
+  <!-- Subtle diagonal texture lines -->
+  <line x1="70" y1="160" x2="150" y2="160" stroke="#D4A843" stroke-width="0.5" opacity="0.2"/>
+  <line x1="150" y1="160" x2="230" y2="160" stroke="#D4A843" stroke-width="0.5" opacity="0.2"/>
+  <line x1="70" y1="340" x2="230" y2="340" stroke="#D4A843" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Horizontal flourish lines -->
+  <line x1="40" y1="130" x2="260" y2="130" stroke="#D4A843" stroke-width="0.75" opacity="0.3"/>
+  <line x1="40" y1="370" x2="260" y2="370" stroke="#D4A843" stroke-width="0.75" opacity="0.3"/>
+
+  <!-- Small ornament above text -->
+  <polygon points="150,102 156,112 150,122 144,112" fill="none" stroke="#D4A843" stroke-width="1" opacity="0.6"/>
+  <polygon points="150,378 156,388 150,398 144,388" fill="none" stroke="#D4A843" stroke-width="1" opacity="0.6"/>
+
+  <!-- Top text: LISBON TAROT -->
+  <text x="150" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="bold"
+        fill="#D4A843" text-anchor="middle" letter-spacing="4">LISBON TAROT</text>
+
+  <!-- Bottom text: LISBON TAROT (flipped) -->
+  <text x="150" y="420" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="bold"
+        fill="#D4A843" text-anchor="middle" letter-spacing="4"
+        transform="rotate(180, 150, 420)">LISBON TAROT</text>
+
+  <!-- Decorative side marks -->
+  <line x1="20" y1="120" x2="30" y2="120" stroke="#D4A843" stroke-width="1" opacity="0.5"/>
+  <line x1="270" y1="120" x2="280" y2="120" stroke="#D4A843" stroke-width="1" opacity="0.5"/>
+  <line x1="20" y1="380" x2="30" y2="380" stroke="#D4A843" stroke-width="1" opacity="0.5"/>
+  <line x1="270" y1="380" x2="280" y2="380" stroke="#D4A843" stroke-width="1" opacity="0.5"/>
+</svg>

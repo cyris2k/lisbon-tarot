@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-blue: #2323a5;
+  --color-cobalt: #1b1db5;
+  --color-dark-blue: #1b1b8f;
+  --color-bg-gray: #e5e7eb;
+  --color-lavender: #eaeaf5;
+  --color-lavender-light: #d8d8ee;
+  --color-text-dark: #0d0d0d;
+}
+
+:root {
+  --font-serif: Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', 'Helvetica Neue', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+}
+
+body {
+  background: #e5e7eb;
+  color: #0d0d0d;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Eyebrow pill */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.84px;
+  line-height: 1.2;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  border: 1px solid;
+}
+
+.eyebrow-light {
+  background: #eaeaf5;
+  border-color: #2323a5;
+  color: #2323a5;
+}
+
+.eyebrow-dark {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+}
+
+/* Primary button — pill */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #2323a5;
+  color: #ffffff;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  padding: 14px 28px;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-primary:hover {
+  background: #1b1db5;
+}
+
+/* Secondary button — sharp corners */
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #eaeaf5;
+  color: #0d0d0d;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  padding: 14px 24px;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-secondary:hover {
+  background: #d8d8ee;
+}
+
+/* Secondary button dark bg */
+.btn-secondary-dark {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  padding: 14px 24px;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-secondary-dark:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
